@@ -147,6 +147,18 @@ public class PatternTwo {
 
         System.out.println(" ");
         System.out.println("Syntax for Ternary operator");
+        n=8;
+        for (int i=0; i<n; i++){
+            for(int j=0; j<n; j++){
+                if( j==0 && i<4|| i==0 && j<4 || i < n-1 && i>0 ){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println( );
+        }
 
         // for (int i = 0; i < n; i++) {
          //   for (int j = 0; j < n; j++) {

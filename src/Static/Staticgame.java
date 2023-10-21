@@ -1,8 +1,8 @@
 package Static;
 import java.util.*;
 class Stgame{
-    static int inp1;
-    static int inp2;
+    static int inp1,inp2;
+
     int u1;
 
     static {
