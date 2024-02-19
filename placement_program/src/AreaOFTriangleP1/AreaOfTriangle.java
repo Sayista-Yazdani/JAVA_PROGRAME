@@ -9,6 +9,6 @@ public class AreaOfTriangle {
         System.out.println("Enter the Height Of Triangle: ");
         double h= sc.nextInt();
         double AreaOfTri = (w*h)/2;
-        System.out.println("The Area OF Triangle Is: " + AreaOfTri);
+        System.out.println("The Area OF Triangle Is by using static concepts: " + AreaOfTri);
     }
 }

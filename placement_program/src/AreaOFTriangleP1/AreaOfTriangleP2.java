@@ -17,6 +17,6 @@ public class AreaOfTriangleP2 {
         System.out.println("Enter the height of Triangle: ");
         long h = sc.nextLong();
         Area a1 = new Area(w, h);
-        System.out.println("Area Of Triangle is: " + a1.area);
+        System.out.println("Area Of Triangle is by using Constructor Concepts: " + a1.area);
     }
 }
